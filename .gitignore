@@ -2,3 +2,4 @@
 /devops-course
 models/cnn_resnet18_freeze_backbone_False.pth
 /models
+/mlruns
