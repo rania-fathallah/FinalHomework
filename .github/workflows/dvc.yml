@@ -17,7 +17,7 @@ jobs:
 
       - name: Configure DVC remote
         run: |
-          dvc remote add -d <remote_name> <url_to_your_google_drive> 
+          dvc remote add -d gdrive_remote gdrive://14ngLTJjLfa_QoV8Y5aR6QicPg2qRM9jf 
 
       - name: Pull data with DVC
         run: |
