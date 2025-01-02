@@ -4,6 +4,7 @@ import os
 import mlflow
 import mlflow.pytorch
 from mlflow.models.signature import ModelSignature
+from mlflow.pyfunc import PythonModel
 
 
 import torch

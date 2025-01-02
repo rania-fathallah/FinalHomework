@@ -20,6 +20,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 def main(args):
     # Define the data transformation
+    # Define the data transformation
     transform = transforms.Compose([
         transforms.Resize((224, 224)),
         transforms.ToTensor(),
@@ -43,7 +44,7 @@ def main(args):
         criterion = torch.nn.CrossEntropyLoss()
 
         # Define K-fold cross-validation with k=5
-        k_folds = 5
+        k_folds = 2
         kfold = KFold(n_splits=k_folds, shuffle=True)
 
         # K-fold Cross Validation model evaluation
