@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rania/Documents/CI%20%28University%29/CI3/DevMlOps/Project/project_3/classification-pytorch/mlruns/0/687a574be781465bbaae308ed3ac824f/artifacts
+end_time: 1732263010734
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 687a574be781465bbaae308ed3ac824f
+run_name: serious-mare-453
+run_uuid: 687a574be781465bbaae308ed3ac824f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732262952951
+status: 3
+tags: []
+user_id: rania

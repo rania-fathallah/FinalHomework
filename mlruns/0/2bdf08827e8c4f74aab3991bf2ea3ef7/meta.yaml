@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rania/Documents/CI%20%28University%29/CI3/DevMlOps/Project/project_3/classification-pytorch/mlruns/0/2bdf08827e8c4f74aab3991bf2ea3ef7/artifacts
+end_time: 1732262641967
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2bdf08827e8c4f74aab3991bf2ea3ef7
+run_name: clean-crow-986
+run_uuid: 2bdf08827e8c4f74aab3991bf2ea3ef7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732262321698
+status: 3
+tags: []
+user_id: rania

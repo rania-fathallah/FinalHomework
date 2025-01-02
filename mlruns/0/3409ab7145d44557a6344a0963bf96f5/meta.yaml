@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rania/Documents/CI%20%28University%29/CI3/DevMlOps/Project/project_3/classification-pytorch/mlruns/0/3409ab7145d44557a6344a0963bf96f5/artifacts
+end_time: 1732266415236
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3409ab7145d44557a6344a0963bf96f5
+run_name: burly-crab-351
+run_uuid: 3409ab7145d44557a6344a0963bf96f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732266168691
+status: 3
+tags: []
+user_id: rania

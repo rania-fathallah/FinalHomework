@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rania/Documents/CI%20%28University%29/CI3/DevMlOps/Project/project_3/classification-pytorch/mlruns/0/af8fba656587407c822ed257c56012ca/artifacts
+end_time: 1732226605647
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af8fba656587407c822ed257c56012ca
+run_name: respected-ray-355
+run_uuid: af8fba656587407c822ed257c56012ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732226473088
+status: 3
+tags: []
+user_id: rania

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rania/Documents/CI%20%28University%29/CI3/DevMlOps/Project/project_3/classification-pytorch/mlruns/0/d5980f8e00ad47af9bb75687091a1d03/artifacts
+end_time: 1732266168548
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d5980f8e00ad47af9bb75687091a1d03
+run_name: grandiose-elk-480
+run_uuid: d5980f8e00ad47af9bb75687091a1d03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732265873574
+status: 3
+tags: []
+user_id: rania

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rania/Documents/CI%20%28University%29/CI3/DevMlOps/Project/project_3/classification-pytorch/mlruns/0/011ab2aa888a4d3eb1e381d38a1b417d/artifacts
+end_time: 1732315865455
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 011ab2aa888a4d3eb1e381d38a1b417d
+run_name: delicate-lynx-96
+run_uuid: 011ab2aa888a4d3eb1e381d38a1b417d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732315419906
+status: 3
+tags: []
+user_id: rania

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rania/Documents/CI%20%28University%29/CI3/DevMlOps/Project/project_3/classification-pytorch/mlruns/0/c71f95f86ab94a4bbcd09a9a463b81f9/artifacts
+end_time: 1732263484968
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c71f95f86ab94a4bbcd09a9a463b81f9
+run_name: adorable-trout-910
+run_uuid: c71f95f86ab94a4bbcd09a9a463b81f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732263241092
+status: 3
+tags: []
+user_id: rania

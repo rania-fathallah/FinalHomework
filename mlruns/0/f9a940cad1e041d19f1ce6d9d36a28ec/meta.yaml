@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rania/Documents/CI%20%28University%29/CI3/DevMlOps/Project/project_3/classification-pytorch/mlruns/0/f9a940cad1e041d19f1ce6d9d36a28ec/artifacts
+end_time: 1732262952822
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f9a940cad1e041d19f1ce6d9d36a28ec
+run_name: capricious-ram-324
+run_uuid: f9a940cad1e041d19f1ce6d9d36a28ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732262642342
+status: 3
+tags: []
+user_id: rania

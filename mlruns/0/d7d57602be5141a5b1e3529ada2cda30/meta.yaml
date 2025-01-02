@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rania/Documents/CI%20%28University%29/CI3/DevMlOps/Project/project_3/classification-pytorch/mlruns/0/d7d57602be5141a5b1e3529ada2cda30/artifacts
+end_time: 1732226787347
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d7d57602be5141a5b1e3529ada2cda30
+run_name: dashing-yak-873
+run_uuid: d7d57602be5141a5b1e3529ada2cda30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732226617254
+status: 3
+tags: []
+user_id: rania

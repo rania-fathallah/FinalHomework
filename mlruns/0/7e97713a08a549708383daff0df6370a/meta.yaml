@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rania/Documents/CI%20%28University%29/CI3/DevMlOps/Project/project_3/classification-pytorch/mlruns/0/7e97713a08a549708383daff0df6370a/artifacts
+end_time: 1732265175036
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7e97713a08a549708383daff0df6370a
+run_name: treasured-shad-809
+run_uuid: 7e97713a08a549708383daff0df6370a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732264867767
+status: 3
+tags: []
+user_id: rania

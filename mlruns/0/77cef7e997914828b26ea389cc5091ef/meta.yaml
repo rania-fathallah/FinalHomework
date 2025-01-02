@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rania/Documents/CI%20%28University%29/CI3/DevMlOps/Project/project_3/classification-pytorch/mlruns/0/77cef7e997914828b26ea389cc5091ef/artifacts
+end_time: 1732316365961
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 77cef7e997914828b26ea389cc5091ef
+run_name: amusing-snipe-943
+run_uuid: 77cef7e997914828b26ea389cc5091ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732316346458
+status: 3
+tags: []
+user_id: rania
