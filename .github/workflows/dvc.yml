@@ -2,7 +2,7 @@ name: DVC Pipeline
 
 on:
   push:
-    branches: [main]
+    branches: master
 
 jobs:
   dvc_pull:
