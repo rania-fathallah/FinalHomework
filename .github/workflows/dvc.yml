@@ -13,6 +13,7 @@ jobs:
 
       - name: Install DVC
         run: |
+          pip install --upgrade dvc
           pip install dvc[gdrive]
 
       - name: Authenticate with Google Cloud
