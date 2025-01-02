@@ -16,13 +16,13 @@ jobs:
           pip install dvc[gdrive]
 
       - name: Authenticate with Google Cloud
-        uses: google-github-actions/auth@v0
+        uses: google-github-actions/auth@v2
         with:
           credentials_json: ${{ secrets.GOOGLE_CLOUD_KEY }}
 
       - name: Configure DVC remote
         run: |
-          dvc remote add -d gdrive_remote gdrive://${{ secrets.GOOGLE_CLOUD_EMAIL }}@${{ secrets.GOOGLE_CLOUD_PROJECT_ID }}.iam.gserviceaccount.com/14ngLTJjLfa_QoV8Y5aR6QicPg2qRM9jf
+          dvc remote add -d gdrive_remote -f gdrive://${{ secrets.GOOGLE_CLOUD_EMAIL }}@${{ secrets.GOOGLE_CLOUD_PROJECT_ID }}.iam.gserviceaccount.com/14ngLTJjLfa_QoV8Y5aR6QicPg2qRM9jf
 
       - name: Pull data with DVC
         run: |
