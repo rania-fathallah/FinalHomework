@@ -1,0 +1,28 @@
+name: DVC Pipeline
+
+on:
+  push:
+    branches: master
+
+jobs:
+  dvc_pull:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install DVC
+        run: |
+          pip install dvc[gdrive] 
+
+      - name: Configure DVC remote
+        run: |
+          dvc remote add -d <remote_name> <url_to_your_google_drive> 
+
+      - name: Pull data with DVC
+        run: |
+          dvc pull 
+
+      - name: Verify pipeline integrity
+        run: |
+          dvc repro
