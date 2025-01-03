@@ -25,7 +25,7 @@ jobs:
 
       - name: Configure DVC remote
         run: |
-          dvc remote add -d gdrive_remote -f gdrive://${{ secrets.GOOGLE_CLOUD_EMAIL }}@${{ secrets.GOOGLE_CLOUD_PROJECT_ID }}.iam.gserviceaccount.com/14ngLTJjLfa_QoV8Y5aR6QicPg2qRM9jf
+          dvc remote add -d gdrive_remote -f gdrive://14ngLTJjLfa_QoV8Y5aR6QicPg2qRM9jf
 
       - name: Debug DVC
         run: |
