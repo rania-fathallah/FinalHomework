@@ -29,8 +29,6 @@ jobs:
           dvc remote remove gdrive_remote || true
           # Add the remote again
           dvc remote add -d gdrive_remote gdrive://14ngLTJjLfa_QoV8Y5aR6QicPg2qRM9jf
-          # Configure the remote with the service account
-          dvc remote modify gdrive_remote gdrive_service_account_json_file_path ${{ secrets.TEMP_JSON }}
 
       - name: Pull data with DVC
         run: |
