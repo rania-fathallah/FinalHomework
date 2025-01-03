@@ -13,8 +13,10 @@ jobs:
 
       - name: Install DVC
         run: |
-          pip install --upgrade dvc
-          pip install dvc[gdrive]
+          sudo apt update && sudo apt install --only-upgrade openssl
+          pip install --upgrade dvc dvc[gdrive]
+          pip install --upgrade cryptography
+
 
       - name: Authenticate with Google Cloud
         uses: google-github-actions/auth@v2
@@ -25,6 +27,11 @@ jobs:
         run: |
           dvc remote add -d gdrive_remote -f gdrive://${{ secrets.GOOGLE_CLOUD_EMAIL }}@${{ secrets.GOOGLE_CLOUD_PROJECT_ID }}.iam.gserviceaccount.com/14ngLTJjLfa_QoV8Y5aR6QicPg2qRM9jf
 
+      - name: Debug DVC
+        run: |
+          dvc doctor
+          dvc list gdrive_remote
+          
       - name: Pull data with DVC
         run: |
           dvc pull
